@@ -121,7 +121,7 @@ tolerations:
 defaultVolumes:
   - name: containers
     hostPath:
-      path: /var/lib/docker/containers
+      path: /var/vcap/data/docker/docker/containers
   - name: pods
     hostPath:
       path: /var/log/pods
